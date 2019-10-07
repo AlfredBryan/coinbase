@@ -1,0 +1,135 @@
+.cover_all {
+    text-align: center;
+    height: 460px;
+    background: rgb(22, 82, 240);
+}
+
+.header_text {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 1em
+}
+
+.header_paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 24px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.input_form {
+    margin-top: 8px;
+    width: 455px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.input_space {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.get_started_input {
+    margin-right: 10px;
+    -webkit-appearance: none;
+    font-family: Graphik, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.75;
+    color: rgb(11, 52, 102);
+    flex: 1 1 0%;
+    padding: 13px 16px 15px;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.get_started_button {
+    width: auto;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(5, 177, 105);
+    margin: 0px;
+    border-radius: 4px;
+    transition: all 80ms ease-in-out 0s;
+    padding: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(5, 177, 105);
+    border-image: initial;
+}
+
+table {
+    display: table;
+    border-color: grey;
+}
+
+.bitcoin_table {
+    width: 100%;
+    max-width: 1142px;
+    border-collapse: separate;
+    caption-side: top;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border-spacing: 0px;
+    margin-top: 2em;
+    margin-left: 9em;
+    box-shadow: rgba(17, 51, 83, 0.02) 0px 4px 12px 0px;
+    border-radius: 4px;
+    border: 1px solid rgb(236, 239, 241);
+}
+
+.table-header {
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-bottom: 1px solid rgb(236, 239, 241);
+}
+
+th,
+span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgba(17, 51, 83, 0.6);
+    text-align: left;
+    padding: 16px 16px 16px 0px;
+}
+
+td {
+    cursor: default;
+    width: 85px;
+    color: rgba(17, 51, 83, 0.6);
+    vertical-align: middle;
+    padding: 14px 48px 14px 0px;
+    border-top: 1px solid rgb(236, 239, 241);
+    display: table-cell;
+}
+
+@media screen and (max-width: 600px) {
+    .header_text {
+        font-size: 28px !important;
+        line-height: 40px !important;
+    }
+}
