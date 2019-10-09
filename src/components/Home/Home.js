@@ -706,6 +706,54 @@ class Home extends Component {
             <img src={require("../../images/section_six.jpg")} alt="" />
           </div>
         </div>
+        <footer className="footer_section">
+          <div className="footer_items">
+            <div className="footer_item_one">
+              <h3>coinbase</h3>
+              <span>+1 (888) 908-7930</span>
+              <p>support.coinbase.com</p>
+              <div className="copyright">&copy; 2019 Coinbase</div>
+            </div>
+            <div className="footer_item_two">
+              <h3>Products</h3>
+              <div>Coinbase</div>
+              <div>Commerce</div>
+              <div>Custody</div>
+              <div>Earn</div>
+              <div>Pro</div>
+              <div>USD Coin</div>
+              <div>Wallet</div>
+              <div>Ventures</div>
+            </div>
+            <div className="footer_item_two">
+              <h3>Learn</h3>
+              <div>Buy Bitcoin</div>
+              <div>Buy Bitcoin Cash</div>
+              <div>Buy Ethereum</div>
+              <div>Buy Litecoin</div>
+              <div>Buy XRP</div>
+              <div>Supported countries</div>
+              <div>Status</div>
+              <div>Taxes</div>
+            </div>
+            <div className="footer_item_two">
+              <h3>Company</h3>
+              <div>About</div>
+              <div>Affiliates</div>
+              <div>Careers</div>
+              <div>Partners</div>
+              <div>Press</div>
+              <div>Legal & Privacy</div>
+              <div>Support</div>
+            </div>
+            <div className="footer_item_two">
+              <h3>Social</h3>
+              <div>Blog</div>
+              <div>Twitter</div>
+              <div>Facebook</div>
+            </div>
+          </div>
+        </footer>
       </React.Fragment>
     );
   }

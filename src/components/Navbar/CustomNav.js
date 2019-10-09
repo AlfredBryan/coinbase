@@ -70,10 +70,10 @@ class CustomNav extends React.Component {
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/login">Sign in</NavLink>
+                <NavLink href="/sign-in">Sign in</NavLink>
               </NavItem>
               <NavItem className="get_started">
-                <NavLink href="/register">Get started</NavLink>
+                <NavLink href="/sign-up">Get started</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
