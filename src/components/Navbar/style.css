@@ -45,10 +45,85 @@ body {
     width: 120px;
     margin-right: 7em
 }
+
 .navbar-toggler {
     background: white !important
 }
 
+
+.design_dropdown {
+    width: 770px !important;
+    transform: translateX(-40%);
+}
+
+.dropdown_style {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.dropdown_one h2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(17, 51, 83, 0.6);
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 0px;
+    margin-right: 28px;
+}
+
+.dropdown_two h2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(17, 51, 83, 0.6);
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 0px;
+    margin-right: 28px;
+}
+
+.dropdown_option svg {
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(17, 51, 85, 0.05) 0px 4px 16px;
+    border-radius: 50%;
+}
+
+.option_svg {
+    padding-right: 15px;
+}
+
+.nav_footer {
+    text-align: center !important;
+    cursor: pointer;
+    color: rgba(17, 51, 83, 0.6) !important;
+}
+
+.dropdown_option {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 400px;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.dropdown_option h4 {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    color: rgb(5, 15, 25);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.option_text {
+    color: rgba(17, 51, 83, 0.6);
+    font-weight: 400;
+    font-size: 15px;
+}
 
 @media screen and (max-width: 600px) {
     .navbar-brand {
